@@ -7,7 +7,7 @@ import { UilSignOutAlt } from '@iconscout/react-unicons';
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
   return (
-    <div className="sidebar">
+    <div className="Sidebar">
       {/* logo */}
       <div className="logo">
         <img src={Logo} alt="" />

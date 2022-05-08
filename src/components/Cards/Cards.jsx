@@ -5,7 +5,7 @@ import './Cards.css';
 
 const Cards = () => {
   return (
-    <div className="cards">
+    <div className="Cards">
       {CardData.map((card, id) => {
         return (
           <div className="parentContainer">
