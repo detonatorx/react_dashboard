@@ -7,7 +7,7 @@ const ExpandedCard = ({ params, setExpanded }) => {
   const { color, title, series } = params;
   const timeElapsed = Date.now();
   let today = new Date(timeElapsed);
-  today = today.toISOString().slice(0, 10);
+  today = today.toISOString().split('T')[0];
 
   const data = {
     options: {
