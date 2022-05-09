@@ -7,6 +7,9 @@ import {
   UilMoneyWithdrawal,
   UilUsdSquare
 } from '@iconscout/react-unicons'
+import img1 from '../imgs/img1.png'
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png' 
 
 export const SidebarData = [
   {
@@ -79,5 +82,26 @@ export const CardData = [
         data: [10, 25, 15, 30, 12, 15, 20]
       }
     ]
+  },
+]
+
+export const UpdatesData = [
+  {
+    img: img1,
+    name: 'Andrew T.',
+    noti: 'has ordered Apple Smart Watch',
+    time: '25 seconds ago'
+  },
+  {
+    img: img2,
+    name: 'James B.',
+    noti: 'has ordered power bank for 20000Mah',
+    time: '30 minutes ago'
+  },
+  {
+    img: img3,
+    name: 'Alex I.',
+    noti: 'has ordered Samsung Galaxy Smartphone',
+    time: '2 hours ago'
   },
 ]

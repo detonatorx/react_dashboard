@@ -65,10 +65,11 @@
 /* Expandable Card */
 .ExpandedCard {
   position: absolute;
-  width: 60%;
+  width: 80%;
   height: 70vh;
   z-index: 9;
-  left: 9rem;
+  /* left: 9rem; */
+  left: 8%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;

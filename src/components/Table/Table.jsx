@@ -7,7 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { makeStyle } from '../../helpers/makeStyle';
-import './Table.css'
+import './Table.css';
 
 function createData(name, trackingId, date, status) {
   return { name, trackingId, date, status };
@@ -75,7 +75,9 @@ export default function BasicTable() {
                     {row.status}
                   </span>
                 </TableCell>
-                <TableCell align="left" className='details'>Detail</TableCell>
+                <TableCell align="left" className="details">
+                  Detail
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>

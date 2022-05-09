@@ -1,5 +1,6 @@
 .MuiTableRow-root>* {
   padding: 10px;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .MuiTableRow-root.MuiTableRow-head>* {
@@ -15,7 +16,7 @@
 }
 
 .details {
-  color: #00b5ff !important;
+  color: gray !important;
 }
 
 .status {
