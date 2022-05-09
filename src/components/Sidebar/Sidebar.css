@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
   padding-top: 4rem;
-  transition: all 300ms ease;
+  /* transition: all 300ms ease; */
 }
 
 .logo {
@@ -26,6 +26,9 @@
   color: var(--pink);
 }
 
+.bars {
+  display: none;
+}
 /* menu */
 .menu {
   margin-top: 4rem;
@@ -44,6 +47,8 @@
   transition: all 300ms ease;
   font-size: 14px;
   border-radius: 0.7rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .menuItem:hover {
@@ -67,4 +72,65 @@
   position: absolute;
   bottom: 2.3rem;
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .menuItem > span {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sidebar {
+    position: fixed;
+    z-index: 9;
+    background: #ffe0e0;
+    width: '55%';
+    padding-right: 1rem;
+    height: 100%;
+  }
+
+  .menuItem > span {
+    display: block;
+  }
+
+  .logo {
+    /* display: block; */
+    /* margin-top: -5rem; */
+    margin-left: 5rem;
+  }
+
+  .logo > img {
+    display: none;
+  }
+
+  .menu .menuItem:last-child {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .bars {
+    display: flex;
+    position: absolute;
+    /* position: fixed; */
+    top: 2rem;
+    left: 2rem;
+    /* margin-bottom: 3rem; */
+    /* margin-left: 2rem; */
+    /* left: 3%; */
+    z-index: 15;
+    background: #ffe0e0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .logo > span {
+    font-size: 18px;
+    margin-left: 5px;
+    align-self: center;
+  }
 }
