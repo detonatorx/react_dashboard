@@ -116,6 +116,7 @@
   }
 
   .chartContainer {
-    width: 90%;
+    width: 80vw;
+    z-index: 10;
   }
 }
