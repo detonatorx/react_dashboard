@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 import Logo from '../../imgs/logo.png';
 import { SidebarData } from '../../mockupdata/Data';
@@ -19,13 +19,13 @@ const Sidebar = () => {
 
   return (
     <>
-        <div className="bars" onClick={() => setExpanded(!expanded)}>
-          <UilBars />
-        </div>
+      <div className="bars" onClick={() => setExpanded(!expanded)}>
+        <UilBars />
+      </div>
       <motion.div
         className="Sidebar"
         variants={sidebarVariants}
-        animate={window.innerWidth <= 768 ? `${expanded}`: ''}
+        animate={window.innerWidth <= 768 ? `${expanded}` : ''}
       >
         {/* logo */}
         <div className="logo">
