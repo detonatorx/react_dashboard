@@ -46,6 +46,7 @@
 @media screen and (max-width: 768px) {
   .AppGlass {
     grid-template-columns: 1fr;
+    position: relative;
   }
 
   .AppGlass::-webkit-scrollbar {

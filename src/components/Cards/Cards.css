@@ -22,5 +22,7 @@
 @media screen and (max-width: 768px) {
   .Cards {
     width: 90%;
+    display: flex;
+    justify-content: center;
   }
 }

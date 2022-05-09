@@ -37,7 +37,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 28rem;
+    width: 90vw;
+    margin-left: 0%;
+    /* margin-right:  20%; */
   }
 }
 

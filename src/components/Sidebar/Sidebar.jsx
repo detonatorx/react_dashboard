@@ -13,7 +13,7 @@ const Sidebar = () => {
       left: '0',
     },
     false: {
-      left: '-50%',
+      left: '-60%',
     },
   };
 
